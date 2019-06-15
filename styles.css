@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(to bottom, #EA471F, #EA7B1F, #E7EA1F, #14983C, #144298, #6F09A2);
+  height: 87vh;
+}
+
+section {
+  background: white;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 125px;
+  padding: 10px 25px;
+  text-align: center;
+  height: 250px;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+}
+
+p {
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+}
+
+.feeling {
+  font-family: 'Caveat', cursive;
+}
+
+button {
+  background: white;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.message {
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  color: black;
+}
+
+
+@media screen and (max-width: 1000px) {
+  section {
+    width: 90%;
+  }
+}
